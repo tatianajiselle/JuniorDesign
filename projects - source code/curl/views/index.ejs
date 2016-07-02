@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src='/javascripts/jquery-2.2.1.min.js'></script>
+      <script src='/javascripts/action.js'></script>
+      <style> 
+      h1{
+        font-size: 400%
+      }
+      h2 {
+    background-color: lightgray;
+    font-size: 300%
+
+    }
+    h3{
+      font-size: 200%
+    }
+    #header{
+    background-image: url("/images/fire-flames-black-background-texture-45874484.jpg");
+    
+    padding-top: 48px;
+    
+    }
+    body {
+      background-color: black;
+
+    }
+    #section {
+      background-color: white;
+    }
+    #footer {
+      background-color: white;
+    }
+     #Dangerous{ 
+      font-color:orange;
+    }
+  </style>
+  </head>
+  <body>
+
+    <div id="header">
+    <h1><p class="triple"><font color="white"><b><%= title %></b></font></p></h1>
+
+    </div>
+
+    <div id="section">
+	<h2>Temperature Ratings:<h2>
+  <h3><marquee scrollamount="7"><p id="log"></p></marquee></h3>  
+        <p>Displayed above is the current danger level of the fire alarm system. </p>
+        <p> Normal = 60-80 degrees </p>
+        <p> Warm = 80-110 degrees</p>
+        <p> Dangerous = 110-135 degrees</p>
+<p> Fire! Fire! = 135+ degrees</p>
+
+<br>
+<br>
+<br>
+</div>
+    <div id="footer">
+	FIRE! FIRE! created and implemented by Christina Tobias, Giovanni Soto, and Tatiana Ensslin. 2016 </div>
+  <br>
+  <br>  
+</body>
+</html>
